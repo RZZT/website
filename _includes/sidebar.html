@@ -1,0 +1,20 @@
+<img id="menu" src="https://rzzt.io/images/menu.svg"/>
+<div class="sidebar">
+  <ul class="nav-menu">
+    {% if page.url == "/" %}
+      <li><a class="page-link current-page" href="{{ site.url }}">{{ site.homepage_title }}</a></li>
+    {% else %}
+      <li><a class="page-link" href="{{ site.url }}">{{ site.homepage_title }}</a></li>
+    {% endif %}
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for node in sorted_pages %}
+      {% if node.title %}
+        {% if node.url == page.url %}
+          <li><a class="page-link current-page" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+        {% else %}
+          <li><a class="page-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

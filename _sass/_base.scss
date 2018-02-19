@@ -1,0 +1,225 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $base-font-family;
+}
+
+header {
+  background-color: black;
+  padding: 40px;
+  text-align: right;
+}
+
+.sidebar {
+  margin-top: 10px;
+  width: 150px;
+  padding-right: 20px;
+  position: absolute;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-bottom: 10px;
+}
+
+.page-link {
+    display: block;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+}
+
+.page-link:hover {
+  width: 140px;
+}
+
+.current-page {
+  color: white;
+  background-color: $brand-color;
+  width: 140px;
+}
+
+.nav-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.wrapper {
+  margin: 10px 0 0 0;
+  padding: 0 20px 10px 210px;
+  max-width: 800px;
+  min-height: 618px;
+}
+
+.wrapper p:last-child {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: normal;
+  color: #7C7C7C;
+}
+
+h3 {
+  font-size: $base-font-size;
+}
+
+.under-construction {
+    width: 100%;
+    background-image: url(https://rzzt.io/images/under_construction.jpg);
+    height: 586px;
+    margin-bottom: -10px;
+    background-position: center left;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 100px 40px 100px 40px ;
+    margin-top: 10px;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+.payment-icon {
+  height: 30px;
+  margin: 0 20px 0 0px;
+}
+
+.bank-row, .bank-header {
+  display: flex;
+}
+
+.bank-details {
+  width: 50%;
+}
+
+.bank-row:first-child .bank-details {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.bank-row:last-child .bank-details {
+  padding-top: 1em;
+}
+
+.bank-details:first-child {
+  padding-right: 1em;
+}
+
+.bank-details:last-child {
+  padding-left: 1em;
+}
+
+.bank-flag {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.bank-subheading {
+  margin-top: 1em;
+  font-size: $small-font-size;
+  color: $grey-color;
+  display: block;
+}
+
+#menu {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding: 40px;
+  }
+
+  #menu {
+    display: inline-block;
+    position: absolute;
+    margin: 40px;
+    top: 0;
+    left: 0;
+    width: 52px;
+  }
+
+  .sidebar {
+    display: none;
+    width: 100%;
+    padding-right: 20px;
+    position: absolute;
+    margin: 0;
+  }
+
+  #menu:hover + .sidebar {
+    display: block;
+  }
+
+  .sidebar:hover {
+    display: block;
+  }
+
+  .nav-menu {
+    border-bottom: 5px solid black;
+  }
+
+  .nav-menu li {
+    margin: 0;
+    width: 100%;
+  }
+
+  .page-link {
+    color: black;
+    background-color: white;
+    text-align: left;
+    width: 100%;
+  }
+
+  .page-link:hover {
+    background-color: #888888;
+    width: 100%;
+  }
+
+  .nav-menu li:last-child {
+    margin-bottom: 0;
+  }
+
+  .current-page {
+    color: white;
+    background-color: $brand-color;
+    width: 100%;
+  }
+  .payment-icon {
+    display: block;
+    margin: 2em 0 2em 0;
+  }
+  .bank-row {
+    display: block;
+  }
+  .bank-row:first-child .bank-details {
+    padding-bottom: 0;
+  }
+  .bank-row:last-child .bank-details {
+    padding-top: 0;
+  }
+  .bank-details:first-child {
+    padding-right: 0;
+  }
+  .bank-details:last-child {
+    padding-left: 0;
+  }
+  .bank-details {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
