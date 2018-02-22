@@ -44,11 +44,11 @@ The Funding Committee advises the Directors on income and expenditure. It consis
 
 ## Company records
 
-As part of our commitment to transparency and accountability, we publish up-to-date company records online. This includes the [current balance sheet and profit and loss statement](https://rzzt.io/accounts/summary.html), as well as [minutes](https://github.com/RZZT/Company-Documents/tree/master/Minutes) of all meetings and decisions taken outside meetings.
+As part of our commitment to transparency and accountability, we publish up-to-date company records online. This includes the [current balance sheet and profit and loss statement]({{ site.url }}/accounts/summary.html), as well as [minutes]({{ site.url }}/minutes/) of all meetings and decisions taken outside meetings.
 
 ## Articles of Association
 
-RZZT's Articles of Association are available from Companies House. We have also made a version-controlled [PDF](https://github.com/RZZT/Company-Documents/blob/master/Constitution/Articles-of-Association.pdf) available, as well as a convenient, easy-to-use [web version](https://rzzt.io/articles-of-association/) of the Articles of Association.
+RZZT's Articles of Association are available from Companies House. We have also made a version-controlled [PDF](https://github.com/RZZT/Company-Documents/blob/master/Constitution/Articles-of-Association.pdf) available, as well as a convenient, easy-to-use [web version]({{ site.url }}/articles-of-association/) of the Articles of Association.
 
 ## Membership
 
