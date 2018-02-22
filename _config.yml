@@ -3,6 +3,9 @@ title: RZZT
 homepage_title: Home
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://rzzt.io" # the base hostname & protocol for your site
+collections:
+  minutes:
+    output: true
 
 # Build settings
 markdown: kramdown

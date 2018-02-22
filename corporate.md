@@ -8,7 +8,7 @@ order: 7
 
 ## Companies House details
 
-RZZT CIC is a community interest company limited by guarantee, registered and incorporated in the United Kingdom. Its company number is 10951485. You can view the company details on the [Companies House website](https://beta.companieshouse.gov.uk/company/10951485).
+RZZT CIC is a Community Interest Company incorporated in the United Kingdom and registered in England & Wales as a private company limited by guarantee. Its company number is 10951485, and its registered office is at International House, 776--778 Barking Road, Barking, London, E13 9PJ. More details are available at the [Companies House website](https://beta.companieshouse.gov.uk/company/10951485).
 
 ## Directors
 
@@ -20,7 +20,7 @@ Matt is studying for an associate degree majoring in aerospace engineering at Br
 
 ### Akhilesh Jamdar
 
-Akhilesh is a trainee advocate (lawyer) and graduate of the University of Mumbai with a Bachelor of Legal Studies/Bachelor of Laws.
+Akhilesh is a trainee advocate (lawyer) and graduate of the University of Mumbai with a Bachelor of Legal Studies/Bachelor of Laws. His hobbies include playing chess, reading books and investing.
 
 ### Victor Rincones Rodriguez
 

@@ -8,7 +8,7 @@
     {% endif %}
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for node in sorted_pages %}
-      {% if node.title %}
+      {% if node.title and node.order %}
         {% if node.url == page.url %}
           <li><a class="page-link current-page" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
         {% else %}

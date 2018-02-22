@@ -143,6 +143,20 @@ a {
     fill: #ff9900;
 }
 
+#minutes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#minutes-table th, #minutes-table td {
+  text-align: left;
+  padding: 0.5em;
+}
+
+#minutes-table tr:nth-child(even) {
+  background-color: $grey-color-light;
+}
+
 @media screen and (max-width: 500px) {
   .wrapper {
     padding: 40px;

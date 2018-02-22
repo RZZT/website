@@ -1,0 +1,101 @@
+---
+layout: minute
+---
+
+<h2>Agenda</h2>
+
+<ul>
+  <li>Introductory matters</li>
+    {% for item in page.agenda %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  <li>Next meeting</li>
+  <li>Close of meeting</li>
+</ul>
+
+<h2>Introductory matters</h2>
+
+<p>The Directors of RZZT CIC met {{ page.location }} on {{ page.date | date: "%A %-d %B %Y"}} at {{ page.date | date: "%R"}} UTC±0.</p>
+
+<p>Directors in attendance were:</p>
+
+<ul>
+  {% for item in page.directors %}
+    <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+
+{% if page.secretary or page.members %}
+  <p>Also present
+    {% if page.secretary.size > 0 and page.members.size > 0 %}
+      {% assign extra_attendees = true %}
+    {% elsif page.members.size > 1 %}
+      {% assign extra_attendees = true %}
+    {% endif %}
+    {% if extra_attendees %}
+      were:</p>
+      <ul>
+        {% for item in page.secretary %}
+          <li>{{ item }} (the Company Secretary)</li>
+        {% endfor %}
+        {% for item in page.members %}
+          <li>{{ item }} (a member)</li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      was
+      {% if page.secretary %}
+        {{ page.secretary }} (the Company Secretary).
+      {% else %}
+        {{ page.members }} (a member).</p>
+      {% endif %}
+    {% endif %}
+{% endif %}
+
+{% if page.apologies %}
+  <p>Apologies were received from
+    {% if page.apologies.size > 1 %}
+      :</p>
+      <ul>
+        {% for item in page.apologies %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      {{ page.apologies }}.</p>
+    {% endif %}
+{% endif %}
+
+<p>
+  {% if page.quorum == "satisfied" %}
+    Quorum was satisfied in accordance with the Articles of Association.
+  {% else %}
+    Quorum was not satisfied in accordance with the Articles of Association.
+  {% endif %}
+</p>
+
+<p>{{ page.chair }} was duly appointed chair of the meeting.</p>
+
+<p>
+  {% if page.notice == "given" %}
+    The Directors confirmed that the required period of notice for Directors' meetings was met.
+  {% elsif page.notice == "dispensed" %}
+    The Directors confirmed that the required period of notice for Directors' meetings was dispensed with by unanimous consent of the Directors.
+  {% elsif page.notice == "urgent" %}
+    The Directors confirmed that the required period of notice for Directors' meetings was dispensed with due to urgent circumstances.
+  {% endif %}
+</p>
+
+{{ content }}
+
+<h2>Next meeting</h2>
+
+{% if page.next-meeting %}
+  <p>The next meeting will be held on {{ page.next-meeting | date: "%A %-d %B %Y"}} at {{ page.next-meeting | date: "%R"}} UTC±0.</p>
+{% else %}
+  <p>The Directors declined to set a date for the next meeting.</p>
+{% endif %}
+
+<h2>Close of meeting</h2>
+
+<p>The meeting was closed at {{ page.close-meeting | date: "%R"}} UTC±0.</p>
