@@ -22,7 +22,7 @@ agenda:
 - Sunday meeting
 - New meeting schedule
 next-meeting: 2018-03-02 02:00
-close-meeting: 2018-02-24 
+close-meeting: 2018-02-24 03:26
 ---
 
 ## Company registers
