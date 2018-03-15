@@ -36,19 +36,28 @@ Mozart is a paralegal and former digital rights activist who has been approved f
 
 ## Funding Committee
 
-The Funding Committee advises the Directors on income and expenditure. It consists of the Funding Officer (a Director appointed by the Directors), the Company Secretary (ex officio), and other people appointed by the Directors. Refer to the [Funding Committee's terms of reference](https://github.com/RZZT/Company-Documents/blob/master/Committee%20Terms%20of%20Reference/funding-committee.md) for more information. The current members are:
+The Funding Committee advises the Directors on income and expenditure. It consists of the Funding Officer (a Director appointed by the Directors), the Company Secretary (ex officio), and other people appointed by the Directors. Refer to the [Funding Committee terms of reference]({{ site.url }}/structural-documents/funding-committee-terms-of-reference) for more information. The current members are:
 
 - Akhilesh Jamdar (Funding Officer)
 - Mozart Olbrycht-Palmer (Company Secretary)
 - Susan Sons
 
-## Company records
-
-As part of our commitment to transparency and accountability, we publish up-to-date company records online. This includes the [current balance sheet and profit and loss statement]({{ site.url }}/accounts/summary.html), as well as [minutes]({{ site.url }}/minutes/) of all meetings and decisions taken outside meetings.
-
 ## Articles of Association
 
 RZZT's Articles of Association are available from Companies House. We have also made a version-controlled [PDF](https://github.com/RZZT/Company-Documents/blob/master/Constitution/Articles-of-Association.pdf) available, as well as a convenient, easy-to-use [web version]({{ site.url }}/articles-of-association/) of the Articles of Association.
+
+## Company records and registers
+
+As part of our commitment to transparency and accountability, we publish up-to-date company records online. This includes the [current balance sheet and profit and loss statement]({{ site.url }}/accounts/summary.html), as well as [minutes]({{ site.url }}/minutes/) of all meetings and decisions taken outside meetings.
+
+The Company Secretary maintains the company registers, including the Register of Members, the Register of Directors, the Register of Directors' Residential Addresses, and the Register of Secretaries. Access to these registers may be requested in accordance with UK company legislation and the Articles of Association by writing to the Company Secretary [secretary@rzzt.io](mailto:secretary@rzzt.io). The Company Secretary also maintains the [Register of Interests]({{ site.url }}/register-of-interests/) required by the Articles of Association.
+
+## Structural documents and internal policies
+
+Documents relating to the structure and internal policies of the Company are available online:
+
+- [structural documents]({{ site.url }}/structural-documents/)
+- [internal policies]({{ site.url }}/policies/)
 
 ## Membership
 

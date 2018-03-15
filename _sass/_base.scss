@@ -157,6 +157,10 @@ a {
   background-color: $grey-color-light;
 }
 
+#minutes-table p {
+  margin: 0 0 1em 0;
+}
+
 @media screen and (max-width: 500px) {
   .wrapper {
     padding: 40px;

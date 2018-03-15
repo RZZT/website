@@ -6,6 +6,11 @@ url: "https://rzzt.io" # the base hostname & protocol for your site
 collections:
   minutes:
     output: true
-
+  policies:
+    output: true
+  structural-documents:
+    output: true
+  register-of-interests:
+    output: false
 # Build settings
 markdown: kramdown
