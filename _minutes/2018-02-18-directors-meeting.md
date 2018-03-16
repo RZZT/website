@@ -57,6 +57,6 @@ No decision was made on this matter pending further discussion.
 
 ## Communications platforms
 
-Mike suggested that the Company switch to a communications platform other than, but similar to, Slack or IRC. The Directors agreed that Mike should present proposed possible alternatives at the next Directors' meeting.
+Mike suggested that the Company switch to a communications platform other than, but similar to, Slack or IRC. The Directors agreed that Mike should present possible alternatives to them between now and the next meeting.
 
 It was noted that alternatives would require the Company to self-host the platforms, and that Mike had offered to host an alternative on behalf of the Company.
