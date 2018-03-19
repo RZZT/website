@@ -1,7 +1,7 @@
 ---
 layout: decision
 title: Minute of decision changing primary communication platform to Discord
-date: 2017-03-18 18:52
+date: 2018-03-18 18:52
 ---
 
 To change the Company's primary communications from Slack to Discord, with the following stipulations:
