@@ -3,7 +3,7 @@ layout: meeting
 title: Minutes of Directors' meeting
 date: 2018-03-23 02:00
 location: online via IRC
-directors: 
+directors:
 - Matthew Ferrero
 - Victor Rincones Rodriguez
 secretary:
@@ -11,11 +11,9 @@ apologies:
 - Mozart Olbrycht-Palmer (the Company Secretary)
 members:
 - Mike Mackenzie
-quorum:
- Was satisfied in accordance with the Articles of Association
-chair:
-- Matthew Ferrero
-notice:
+quorum: satisfied
+chair: Matthew Ferrero
+notice: given
 agenda:
 - Funding Committee reporting requirements
 - Email issues
@@ -61,6 +59,3 @@ The report provided by the Company Secretary extensively detailed the multitude 
 ## Requests for policy changes
 
 The Directors decided by majority vote that any non-board member of the Company who wishes the Board to implement a new policy should send that request officially over email to the Directors at directors@rzzt.io.
-
-
-
