@@ -47,3 +47,8 @@ The Funding Committee is not expected to incur any expenses. The Committee and i
 ## Communication
 
 The Funding Committee may use any communication method agreed to on the basis of unanimity. If unanimity is unable to be met, the Directors may prescribe a method of communication.
+
+## Reporting
+
+- The Company Secretary shall publish monthly progress reports on behalf of the Funding Committee.
+- The Funding Officer, or other member of the Funding Committee if the Funding Officer is unavailable, shall provide inform the Directors of the Funding Committee’s activities at each Directors’ meeting.
