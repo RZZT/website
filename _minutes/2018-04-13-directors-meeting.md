@@ -56,4 +56,3 @@ Matthew requested on behalf of the PR Committee permission to seek one to two ot
 Matthew and Victor both briefly reviewed the TaskHive contract and concluded no changes apart from effective Dates were necessary and resolved to have the contract signed before Thursday of next week.
 
 
-## Request for PR Committee membership search and inclusion
