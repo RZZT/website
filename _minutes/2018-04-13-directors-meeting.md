@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: Minutes of Directors' meeting
-date: 2018-03-30 02:06
+date: 2018-04-13 02:06
 location: online via IRC
 directors: 
 - Victor Rincones Rodriguez
