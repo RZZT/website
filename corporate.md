@@ -32,15 +32,15 @@ Most of the day-to-day administration is carried out by the Company Secretary.
 
 ### Mozart Olbrycht-Palmer
 
-Mozart is a paralegal and former digital rights activist who has been approved for admission as a lawyer in New South Wales. He has degrees in music, law and legal practice. His hobbies include coding, watching Formula One, and photography.
+Mozart is a lawyer based in Sydney and a former digital rights activist with experience in drafting public policy and public relations. He has degrees in music, law and legal practice. His hobbies include coding, watching Formula One, and photography.
 
 ## Funding Committee
 
-The Funding Committee advises the Directors on income and expenditure. It consists of the Funding Officer (a Director appointed by the Directors), the Company Secretary (ex officio), and other people appointed by the Directors. Refer to the [Funding Committee terms of reference]({{ site.url }}/structural-documents/funding-committee-terms-of-reference) for more information. The current members are:
+The Funding Committee advises the Directors on income and expenditure. It consists of the Funding Officer (a Director appointed by the Directors), the Company Secretary (ex officio), and other people appointed by the Directors. Refer to the [Funding Committee terms of reference]({{ site.url }}/structural-documents/funding-committee-terms-of-reference) for more information.
 
-- Akhilesh Jamdar (Funding Officer)
-- Mozart Olbrycht-Palmer (Company Secretary)
-- Susan Sons
+## Public Relations and Marketing Committee
+
+The Public Relations and Marketing Committee advises the Directors on public relations and marketing strategies. It consists of the Public Relations and Marketing Officer (a Director appointed by the Directors), the Company Secretary (ex officio), and other people appointed by the Directors. Refer to the [Public Relations and Marketing Committee terms of reference]({{ site.url }}/structural-documents/funding-committee-terms-of-reference) for more information.
 
 ## Articles of Association
 
