@@ -9,7 +9,7 @@ This document sets out the process for applying for membership of the Company, a
 
 ## Definitions
 
-In this process:
+In this policy:
 
 - 'applicant' means a person who has or intends to apply for membership of the Company;
 - 'application' means an application for membership of the Company; and
