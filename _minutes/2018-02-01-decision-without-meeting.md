@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision amending the Funding Committee terms of reference
+body: Directors
+title: Minute of Directors' decision amending the Funding Committee terms of reference
 date: 2018-02-01 21:27
 ---
 

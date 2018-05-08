@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision concerning the Pineapple Fund
+body: Directors
+title: Minute of Directors' decision concerning the Pineapple Fund
 date: 2017-12-17 14:16
 ---
 

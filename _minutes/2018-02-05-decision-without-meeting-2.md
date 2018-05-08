@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision adopting the list of documents to be published
+body: Directors
+title: Minute of Directors' decision adopting the list of documents to be published
 date: 2018-02-05 17:33
 ---
 

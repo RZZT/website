@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision to adopt the Remuneration Request Policy
+body: Directors
+title: Minute of Directors' decision to adopt the Remuneration Request Policy
 date: 2018-04-28 07:18
 ---
 

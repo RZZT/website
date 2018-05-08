@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision concerning the Funding Committee
+body: Directors
+title: Minute of Directors' decision concerning the Funding Committee
 date: 2018-01-26 17:49
 ---
 

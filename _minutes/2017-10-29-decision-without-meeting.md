@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision concerning bank account
+body: Directors
+title: Minute of Directors' decision concerning bank account
 date: 2017-09-29 11:47
 ---
 

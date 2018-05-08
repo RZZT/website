@@ -1,6 +1,7 @@
 ---
 layout: meeting
-title: Minutes of Directors' meeting 
+body: Directors
+title: Minutes of Directors' meeting
 date: 2017-09-17 17:00
 location: online via Mumble
 directors:

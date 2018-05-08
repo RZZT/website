@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision changing primary communication platform to Discord
+body: Directors
+title: Minute of Directors' decision changing primary communication platform to Discord
 date: 2018-03-18 18:52
 ---
 

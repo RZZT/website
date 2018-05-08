@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision concerning Taskhive development contract with Victor Rincones Rodriguez
+body: Directors
+title: Minute of Directors' decision concerning Taskhive development contract with Victor Rincones Rodriguez
 date: 2018-04-15 14:13
 ---
 

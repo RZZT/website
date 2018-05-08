@@ -1,5 +1,6 @@
 ---
 layout: meeting
+body: Directors
 title: Minutes of Directors' meeting
 date: 2018-02-18 02:30
 location: online via IRC

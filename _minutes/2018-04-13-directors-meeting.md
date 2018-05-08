@@ -1,13 +1,14 @@
 ---
 layout: meeting
+body: Directors
 title: Minutes of Directors' meeting
 date: 2018-04-13 02:06
 location: online via IRC
-directors: 
+directors:
 - Victor Rincones Rodriguez
 - Matthew Ferrero
-secretary: 
-- Mozart Olbrycht-Palmer 
+secretary:
+- Mozart Olbrycht-Palmer
 apologies:
 - Akhilesh Jamdar
 members:
@@ -45,7 +46,7 @@ Matthew mentioned potential costs associated with conversion fees each time a Pa
 
 ## Request for PR Committee merchandising authorization
 
-Matthew requested on behalf of the PR Committee permission to seek online merchandising options as a primary source of income. Victor instructed the Committee to perform research on merchandising options, but to operate under the assumption that donations should be the primary source of income instead of items sales. 
+Matthew requested on behalf of the PR Committee permission to seek online merchandising options as a primary source of income. Victor instructed the Committee to perform research on merchandising options, but to operate under the assumption that donations should be the primary source of income instead of items sales.
 
 ## Request for PR Committee membership search and inclusion
 
@@ -54,5 +55,3 @@ Matthew requested on behalf of the PR Committee permission to seek one to two ot
 ## TaskHive contract
 
 Matthew and Victor both briefly reviewed the TaskHive contract and concluded no changes apart from effective Dates were necessary and resolved to have the contract signed before Thursday of next week.
-
-

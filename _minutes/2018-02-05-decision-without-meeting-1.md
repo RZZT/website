@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision appointing Susan Sons to the Funding Committee
+body: Directors
+title: Minute of Directors' decision appointing Susan Sons to the Funding Committee
 date: 2018-02-05 17:33
 ---
 

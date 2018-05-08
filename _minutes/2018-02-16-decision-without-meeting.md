@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision accepting Joerg Reisenweber's membership application
+body: Directors
+title: Minute of Directors' decision accepting Joerg Reisenweber's membership application
 date: 2018-02-16 23:26
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision concerning GDAX
+body: Directors
+title: Minute of Directors' decision concerning GDAX
 date: 2017-12-18 10:28
 ---
 

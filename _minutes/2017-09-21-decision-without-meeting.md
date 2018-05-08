@@ -1,6 +1,7 @@
 ---
 layout: decision
-title: Minute of decision concerning email provider
+body: Directors
+title: Minute of Directors' decision concerning email provider
 date: 2017-09-21 16:42
 ---
 

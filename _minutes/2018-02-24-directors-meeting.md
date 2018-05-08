@@ -1,9 +1,10 @@
 ---
 layout: meeting
+body: Directors
 title: Minutes of Directors' meeting
 date: 2018-02-24 02:00
 location: online via IRC
-directors: 
+directors:
 - Matthew Ferrero
 - Akhilesh Jamdar
 - Victor Rincones Rodriguez
