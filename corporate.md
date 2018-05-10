@@ -40,7 +40,7 @@ The Funding Committee advises the Directors on income and expenditure. It consis
 
 ## Public Relations and Marketing Committee
 
-The Public Relations and Marketing Committee advises the Directors on public relations and marketing strategies. It consists of the Public Relations and Marketing Officer (a Director appointed by the Directors), the Company Secretary (ex officio), and other people appointed by the Directors. Refer to the [Public Relations and Marketing Committee terms of reference]({{ site.url }}/structural-documents/funding-committee-terms-of-reference) for more information.
+The Public Relations and Marketing Committee advises the Directors on public relations and marketing strategies. It consists of the Public Relations and Marketing Officer (a Director appointed by the Directors), the Company Secretary (ex officio), and other people appointed by the Directors. Refer to the [Public Relations and Marketing Committee terms of reference]({{ site.url }}/structural-documents/public-relations-and-marketing-committee-terms-of-reference) for more information.
 
 ## Articles of Association
 
