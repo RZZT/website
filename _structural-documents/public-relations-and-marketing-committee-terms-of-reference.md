@@ -33,7 +33,9 @@ The Public Relations and Marketing Committee:
 
 ## Decision making
 
-The Public Relations and Marketing Committee shall make decisions on the basis of unanimity of all members. The Directors may intervene and direct the Committee to take or refrain from taking certain action as they deem appropriate. No decision may be made if the number of members of the Committee is less than three.
+- The Public Relations and Marketing Committee shall make decisions on the basis of unanimity of all members.
+- The Directors may intervene and direct the Committee to take or refrain from taking certain action as they deem appropriate.
+- No decision of the Committee may be made if the Committee's membership is fewer than three.
 
 ## Records
 

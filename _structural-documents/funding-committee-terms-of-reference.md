@@ -16,9 +16,8 @@ The Funding Committee shall exist indefinitely.
 The Funding Committee consists of:
 
 - the Company Secretary;
-- one Director appointed by the Directors;
-- one or more persons who are part of the free software and open source community, as determined by the Directors; and
-- any other person that may be necessary, as determined by the Directors.
+- one Director appointed by the Directors; and
+- other persons as determined by the Directors.
 
 ## Leadership
 
@@ -34,7 +33,9 @@ The Funding Committee:
 
 ## Decision making
 
-The Funding Committee shall make decisions on the basis of unanimity of all members. The Directors may intervene and direct the Committee to take or refrain from taking certain action as they deem appropriate. No decision may be made if there is a vacancy in the Committee's membership.
+- The Funding Committee shall make decisions on the basis of unanimity of all members.
+- The Directors may intervene and direct the Committee to take or refrain from taking certain action as they deem appropriate.
+- No decision of the Committee may be made if the Committee's membership is fewer than three.
 
 ## Records
 
