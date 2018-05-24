@@ -2,7 +2,7 @@
 layout: decision
 body: Directors
 title: Minute of Directors' decision to amend Committees' Terms of Reference
-date: 2018-05-24 02:22
+date: 2018-05-18 02:22
 ---
 
 To amend the Terms of Reference of the Funding Committee to replace the final two items of the list in the section titled 'Membership' with: 'other persons as determined by the Directors'.
