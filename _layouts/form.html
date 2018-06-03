@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="turquoise-background">
+    <div class="form-container-outer">
+      <div class="form-container-inner">
+        <div class="form-wrapper">
+          <header class="form-header">
+            <div class="header-wrapper form-header-wrapper">
+              <div class="document-title-wrapper">
+                <h1 class="document-title">{{ page.title }}</h1>
+              </div>
+              <div class="header-logo">
+                <a href="{{ site.url }}"></a>
+                <svg width="180" height="50" class="logo">
+                  <path fill="#000000" d="M 0, 0 L 80, 0 L 80, 30 L 100, 30 L 100, 50 L 60, 50 L 60, 20 L 20, 20 L 20, 50 L 0, 50 Z"/>
+                  <path fill="#000000" d="M 90, 0 L 130, 0 L 130, 30 L 150, 30 L 150, 50 L 110, 50 L 110, 20 L 90, 20 Z"/>
+                  <path fill="#000000" d="M 140, 0 L 180, 0 L 180, 50 L 160, 50 L 160, 20 L 140, 20 Z"/>
+                </svg>
+                <p >RZZT CIC</p>
+              </div>
+            </div>
+          </header>
+          <main>
+            {{ content }}
+            {% for section in page.sections %}
+              <h2>{{ section.title }}</h2>
+              {% for subsection in section.subsections %}
+                {% if subsection.name %}
+                 <h3>{{ subsection.name }}</h3>
+                {% endif %}
+                {% if subsection.description %}
+                  <p>{{ subsection.description }}</p>
+                {% endif %}
+                {% for input in subsection.inputs %}
+                  {% if input.type == "field" or input.type == "textarea" and input.label %}
+                    <p>{{ input.label }}</p>
+                  {% endif %}
+                  {% if input.type == "field" %}
+                    <input class="form-field" type="text" id="{{ input.id }}" placeholder="{{ input.placeholder }}"/>
+                  {% elsif input.type == "textarea" %}
+                    <textarea class="form-textarea" rows="5" id="{{ input.id }}"></textarea>
+                  {% elsif input.type == "radio" %}
+                    {% for option in input.options %}
+                      <label class="form-checkbox-container">
+                        <input type="radio" name="{{ input.id }}"/>
+                        <span class="form-checkmark"></span>
+                        <span class="form-checkbox-text">{{ option }}</span>
+                      </label>
+                    {% endfor %}
+                  {% elsif input.type == "checkbox" %}
+                    <label class="form-checkbox-container">
+                      <input type="checkbox" id="{{ input.id }}"/>
+                      <span class="form-checkmark"></span>
+                      <span class="form-checkbox-text">{{ input.label }}</span>
+                    </label>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endfor %}
+            {% if page.signature %}
+              <h2>Sign and submit</h2>
+              <p id="form-signature"></p>
+              <button class="form-button" id="sign" onclick="sign()">Sign</button>
+            {% endif %}
+          </main>
+          <footer class="form-footer">
+            <p>{{ site.description }}</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script>
+      {% if page.signature %}
+        function sign() {
+          {% for input in page.signature.inputs %}
+            var {{ input }} = document.getElementById("{{ input }}").value;
+          {% endfor %}
+            document.getElementById("form-signature").innerHTML = forenames + " " + surnames;
+        }
+      {% endif %}
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,38 @@
+---
+layout: page
+title: Sitemap
+---
+
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          {% assign sorted_pages = site.pages | sort: "order" %}
+          {% for page in sorted_pages %}
+            {% if page.parent == "Home" %}
+              <li><a href="{{ page.url }}">{{ page.title }}</a>
+                {% assign parent_page = page.title %}
+                {% if page.subpages == "yes" %}
+                  <ul>
+                    {% for page in sorted_pages %}
+                      {% if page.parent == parent_page %}
+                        {% assign subpage_title = page.title %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a>
+                          {% if page.subpages == "yes" %}
+                            <ul>
+                              {% for page in sorted_pages %}
+                                {% if page.parent == subpage_title %}
+                                  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          {% else %}
+                            </a>
+                          {% endif %}
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>

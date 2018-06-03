@@ -7,14 +7,14 @@ title: Document Publication Policy
 
 The Company Secretary shall publish:
 
-- the Company’s Articles of Association
-- the Company’s most recent balance sheet, profit and loss statement, and accounting journal
-- documents establishing committees (such as terms of reference)
-- minutes of general meetings, Directors’ meetings, Directors’ decisions without meetings, and committee meetings
-- the Statement of Principles
-- the Membership Application Form
-- documents explaining internal processes; and
-- any other documents the Directors indicate are to be published.
+1. the Company’s Articles of Association;
+2. the Company’s most recent balance sheet, profit and loss statement, and accounting journal;
+3. documents establishing committees (such as terms of reference);
+4. minutes of general meetings, Directors’ meetings, Directors’ decisions without meetings, and committee meetings;
+5. the Statement of Principles;
+6. the Membership Application Form;
+7. documents explaining internal processes; and
+8. any other documents the Directors indicate are to be published.
 
 ## Company Secretary to exercise caution
 

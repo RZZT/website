@@ -1,0 +1,625 @@
+@charset "utf-8";
+
+/* Basic styling */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: $base-font-size;
+  line-height: 1.5;
+}
+
+a {
+  color: $turquoise-colour;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+/** Containers **/
+
+.container-outer {
+  margin: 0 $double-spacing-unit 0 $double-spacing-unit;
+}
+
+.container-inner {
+  max-width: $max-content-width;
+  margin: 0 auto 0 auto;
+}
+
+main > .container-outer > .container-inner {
+  margin: $double-spacing-unit auto $double-spacing-unit auto;
+}
+
+/* Header styling */
+
+header {
+  padding: 0;
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/** Navigation menu styling **/
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-size: $small-font-size;
+  font-weight: bold;
+  transition: opacity 0.25s;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.nav-menu li {
+  float: left;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+  white-space: nowrap;
+  transition: background-color 0.25s;
+}
+
+.nav-menu li:hover {
+  background-color: $orange-colour;
+  cursor: pointer;
+}
+
+.nav-submenu, .nav-subsubmenu {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  font-weight: normal;
+}
+
+.nav-submenu {
+  left: 0em;
+  top: 45px;
+  min-width: 120%;
+}
+
+.nav-subsubmenu {
+  left: 100%;
+  top: 0;
+}
+
+.nav-submenu li, .nav-subsubmenu li {
+  float: none;
+}
+
+.nav-menu li:hover > .nav-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav-submenu:hover, .nav-subsubmenu:hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu-more-notch {
+  font-size: 9pt;
+  margin-left: 0.5em;
+}
+
+/** Header logo styling **/
+
+.header-logo {
+  text-align: right;
+  transition: color 0.5s;
+  margin: $base-spacing-unit 0 $base-spacing-unit $base-spacing-unit;
+  position: relative;
+}
+
+.header-logo p {
+  font-size: 24pt;
+  line-height: 37px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.header-logo:hover {
+  cursor: pointer;
+}
+
+.header-logo:hover {
+  color: #FF9900;
+}
+
+.header-logo > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.logo path {
+  transition: fill 0.5s;
+}
+
+.header-logo:hover > .logo path {
+  fill: $orange-colour;
+}
+
+/* Footer styling */
+
+footer {
+  padding: 100px 0 100px 0;
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: $orange-colour;
+  text-decoration: none;
+}
+
+/* Section styling */
+
+.home-section {
+  padding: 100px 0 100px 0;
+}
+
+/* Text styles */
+
+.large-text {
+  font-size: $large-font-size;
+}
+
+.massive-text {
+  font-size: $massive-font-size;
+}
+
+.centred-text {
+  text-align: center;
+}
+
+.grey-text {
+  color: #757575;
+}
+
+.orange-text {
+  color: $orange-colour;
+}
+
+.turquoise-text {
+  color: $turquoise-colour;
+}
+
+/* Background styles */
+
+.orange-background {
+  background-color: $orange-colour;;
+}
+
+.turquoise-background {
+  background-color: $turquoise-colour;
+}
+
+/* Social media list */
+
+.social-media-list {
+  list-style: none;
+  padding: 0;
+}
+.social-media-list li {
+  margin: 1em 0 1em 0;
+}
+
+.svg-icon {
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+/* Payment list */
+
+.payment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.payment-list li {
+  margin: 1em 0 1em 0;
+}
+
+/* Under construction */
+
+.under-construction {
+  min-height: 937px;
+  background-image: url("under-construction.jpg");
+  background-size: cover;
+  background-position: left center;
+}
+
+/* Documents */
+
+.document-header {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.document-title-wrapper {
+  margin: $base-spacing-unit 0 $base-spacing-unit 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.document-date {
+  margin: 0;
+}
+
+.document-title {
+  margin: 0;
+  font-size: 24pt;
+  line-height: 24pt;
+  align-self: flex-end;
+}
+
+.document-footer {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-top: 1px solid #000000;
+  padding: $double-spacing-unit 0 $double-spacing-unit 0;
+}
+
+.document-wrapper {
+  margin: $double-spacing-unit 0 $double-spacing-unit 0;
+  counter-reset: section;
+}
+
+.document-wrapper > h2::before {
+  counter-increment: section;
+  counter-reset: subsection;
+  counter-reset: paragraph;
+  content: counter(section) " ";
+}
+
+.document-wrapper ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 1em;
+}
+
+.document-wrapper > h2 + ol {
+  padding-left: 0;
+}
+
+.document-wrapper > p + ol {
+  padding-left: 1em;
+}
+
+.document-wrapper > h2 + ol > li {
+  counter-increment: subsection;
+  counter-reset: paragraph;
+  padding-left: 2em;
+  position: relative;
+}
+
+.document-wrapper > h2 + ol > li::before {
+  content: "(" counter(subsection, decimal) ") ";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.document-wrapper > p + ol > li, .document-wrapper > ol > li > ol > li {
+  counter-increment: paragraph;
+  padding-left: 2em;
+  position: relative;
+}
+
+.document-wrapper > p + ol > li::before, .document-wrapper > ol > li > ol > li::before {
+  content: "(" counter(paragraph, lower-alpha) ") ";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.document-wrapper > ol > li > ol > li > ol > li, .document-wrapper > p + ol > li > ol > li {
+  counter-increment: subparagraph;
+  padding-left: 2em;
+  position: relative;
+}
+
+.document-wrapper > ol > li > ol > li > ol > li::before, .document-wrapper > p + ol > li > ol > li::before {
+  content: "(" counter(subparagraph, lower-roman) ") ";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.document-wrapper > p + ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 1em;
+}
+
+/* Document table */
+
+.documents-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.documents-table tr {
+  border-top: 1px solid $grey-colour;
+  border-bottom: 1px solid $grey-colour;
+}
+
+.documents-table td {
+  padding: 0.5em;
+  vertical-align: top;
+}
+
+.toggle-agenda {
+  color: $turquoise-colour;
+  font-weight: bold;
+}
+
+.toggle-agenda:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.minutes-table-agenda {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.minutes-table-agenda {
+  display: none;
+}
+
+/* Forms */
+
+.form-container-outer {
+  margin: 0 $double-spacing-unit 0 $double-spacing-unit;
+}
+
+.form-container-inner {
+  max-width: 840px;
+  margin: auto;
+}
+
+.form-header {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid $grey-colour;
+}
+
+.form-footer {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-top: 1px solid $grey-colour;
+  padding: $double-spacing-unit 0 $double-spacing-unit 0;
+}
+
+.form-wrapper {
+  background-color: white;
+  padding: 0 $double-spacing-unit 0 $double-spacing-unit;
+}
+
+.form-wrapper h2 {
+  border-bottom: 1px solid $grey-colour;
+}
+
+      .form-checkbox-container {
+        display: block;
+        position: relative;
+        padding-left: 40px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-bottom: 12pt;
+      }
+      .form-checkbox-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+      }
+      .form-checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        border: 2px solid #000000;
+      }
+      .form-checkbox-container:hover input ~ .form-checkmark {
+        border: 2px solid #757575;
+      }
+      .form-checkbox-container:hover {
+        color: #757575;
+      }
+      .form-checkbox-container input:checked ~ .form-checkmark {
+        border: 2px solid #20B2AA;
+      }
+      .form-checkbox-container input:checked ~ .form-checkbox-text {
+        color: #20B2AA;
+      }
+      .form-checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      .form-checkbox-container input:checked ~ .form-checkmark:after {
+        display: block;
+      }
+      .form-checkbox-container .form-checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: 2px solid #20B2AA;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+
+      .form-field, .form-textarea {
+          border: 2px solid #20B2AA;
+          resize: none;
+          padding: 0.5em;
+        font-size: $base-font-size;
+        font-family: "Raleway";
+        width: 90%;
+        margin: 0;
+      }
+              .form-field:focus, .form-textarea:focus {
+                outline: none;
+              }
+#form-signature {
+  font-family: "Homemade Apple";
+  font-weight: lighter;
+  font-size: $large-font-size;
+}
+
+      .form-button {
+        padding: 0.5em;
+        border: 2px solid #000000;
+        background-color: #FFFFFF;
+        font-size: 12pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 0.5s;
+        margin: 0 0 $base-spacing-unit 0;
+      }
+      .form-button:hover {
+        background-color: #20B2AA;
+        cursor: pointer;
+      }
+
+.timeline {
+  list-style-type: none;
+  margin: 0 0 $double-spacing-unit 0;
+  padding: 0;
+}
+
+.timeline-icon {
+  height: 64px;
+  width: 64px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+.timeline-label {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.timeline-label span {
+  display: block;
+}
+
+.timeline li {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.officer-profile {
+  display: flex;
+  margin-bottom: $base-spacing-unit;
+}
+
+.officer-profile img {
+  width: 100px;
+  height: 100px;
+  margin-right: $base-spacing-unit;
+}
+
+.full-width-image {
+  width: 100%;
+  margin: 0 0 -0.5em 0;
+  padding: 0;
+}
+
+.menu-scroll {
+  display: none;
+  position: absolute;
+  top: $base-spacing-unit;
+  left: $base-spacing-unit;
+  width: 40px;
+  height: 25px;
+}
+
+.menu-scroll path {
+  stroke: $grey-colour;
+}
+
+.menu-scroll:hover path {
+  stroke: $orange-colour;
+}
+
+@media screen and (max-width: 700px) {
+  .header-wrapper {
+    display: block;
+    padding: $half-spacing-unit;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .menu-scroll {
+    display: block;
+  }
+  .home-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .header-logo {
+    display: block;
+    width: 100%;
+  }
+  .header-logo > a {
+    width: 180px;
+  }
+  .header-wrapper {
+    text-align: left;
+  }
+  .document-header .header-logo {
+    text-align: left;
+    margin-left: 0;
+  }
+  .massive-text {
+    font-size: $large-font-size;
+  }
+  .under-construction {
+    background-image: url("under-construction-small.jpg");
+    background-position: center center;
+  }
+}

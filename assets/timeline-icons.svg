@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol id="timeline-start" class="timeline-icon">
+    <path stroke="#20B2AA" stroke-width="20" d="M 30 40 L30 80"/>
+    <circle stroke="#20B2AA" stroke-width="10" cx="30" cy="40" r="20" fill="white"/>
+  </symbol>
+  <symbol id="timeline-middle" class="timeline-icon">
+    <path stroke="#20B2AA" stroke-width="20" d="M 30 0 L30 80"/>
+    <circle stroke="#20B2AA" stroke-width="10" cx="30" cy="40" r="20" fill="white"/>
+  </symbol>
+  <symbol id="timeline-complete" class="timeline-icon">
+    <path stroke="#20B2AA" stroke-width="20" d="M 30 0 L30 40"/>
+    <circle stroke="#20B2AA" stroke-width="10" cx="30" cy="40" r="20" fill="white"/>
+  </symbol>
+</svg>

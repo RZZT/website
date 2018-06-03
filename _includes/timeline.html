@@ -1,0 +1,19 @@
+<ul class="timeline">
+  {% for milestone in page.timeline.milestones %}
+    <li>
+      <svg class="timeline-icon" viewBox="0 0 60 80">
+        {% if forloop.first %}
+          <use xlink:href="{{'/assets/timeline-icons.svg#timeline-start' | relative_url }}"></use>
+        {% elsif forloop.last and page.timeline.complete == true %}
+          <use xlink:href="{{'/assets/timeline-icons.svg#timeline-complete' | relative_url }}"></use>
+        {% else %}
+          <use xlink:href="{{'/assets/timeline-icons.svg#timeline-middle' | relative_url }}"></use>
+        {% endif %}
+      </svg>
+      <p class="timeline-label">
+        <span><strong>{{ milestone.date | date: "%-d %B %Y"}}</strong></span>
+        <span>{{ milestone.milestone }}</span>
+      </p>
+    </li>
+  {% endfor %}
+</ul>
