@@ -5,14 +5,6 @@ permalink: /about/
 parent: "Home"
 subpages: "yes"
 order: 3
----
-
----
-layout: page
-title: Our story
-permalink: /our-story/
-parent: "About"
-order: 2
 timeline:
   complete: false
   milestones:
