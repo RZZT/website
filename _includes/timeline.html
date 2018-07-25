@@ -7,7 +7,13 @@
         {% elsif forloop.last and page.timeline.complete == true %}
           <use xlink:href="{{'/assets/timeline-icons.svg#timeline-complete' | relative_url }}"></use>
         {% else %}
-          <use xlink:href="{{'/assets/timeline-icons.svg#timeline-middle' | relative_url }}"></use>
+          {% assign current_date = site.time | date: '%Y%m%d' %}
+          {% assign event_date = milestone.date | date: '%Y%m%d' %}
+          {% if event_date > current_date %}
+            <use xlink:href="{{'/assets/timeline-icons.svg#timeline-middle-future' | relative_url }}"></use>
+          {% else %}
+            <use xlink:href="{{'/assets/timeline-icons.svg#timeline-middle' | relative_url }}"></use>
+          {% endif %}
         {% endif %}
       </svg>
       <p class="timeline-label">
@@ -17,3 +23,6 @@
     </li>
   {% endfor %}
 </ul>
+
+      {% assign menu_date = menu.date | date: '%Y%m%d' %}
+      {% if menu_date >= current_date %}

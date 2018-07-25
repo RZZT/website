@@ -15,7 +15,7 @@ chair: Akhilesh Jamdar
 notice: given
 agenda:
 - Contracts
-next-meeting: 2018-06-29 02:00
+next-meeting: 2018-07-06 02:00
 close-meeting: 2018-06-29 02:20
 ---
 

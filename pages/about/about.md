@@ -8,7 +8,7 @@ order: 3
 timeline:
   complete: false
   milestones:
-    - milestone: Informal discussion begin
+    - milestone: Informal discussions begin
       date: Early 2017
     - milestone: Incorporation documents are submitted
       date: Mid 2017
@@ -18,6 +18,8 @@ timeline:
       date: 2017-12-09
     - milestone: RZZT enters into its first development contract
       date: 2018-04-16
+    - milestone: RZZT celebrates its one-year anniversary
+      date: 2018-09-07
 ---
 
 {% include timeline.html %}
