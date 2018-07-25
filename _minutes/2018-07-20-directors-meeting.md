@@ -15,6 +15,7 @@ chair: Matthew Ferrero
 notice: given
 agenda:
 - Expansion of Public Relations and Marketing Committee
+- Taskhive contract
 next-meeting: 2018-07-27 02:00
 close-meeting: 2018-07-20 02:05
 ---
