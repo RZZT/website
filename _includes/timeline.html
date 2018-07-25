@@ -9,10 +9,10 @@
         {% else %}
           {% assign current_date = site.time | date: '%Y%m%d' %}
           {% assign event_date = milestone.date | date: '%Y%m%d' %}
-          {% if event_date > current_date %}
-            <use xlink:href="{{'/assets/timeline-icons.svg#timeline-middle-future' | relative_url }}"></use>
-          {% else %}
+          {% if milestone.date contains ' ' or event_date < current_date %}
             <use xlink:href="{{'/assets/timeline-icons.svg#timeline-middle' | relative_url }}"></use>
+          {% else %}
+            <use xlink:href="{{'/assets/timeline-icons.svg#timeline-middle-future' | relative_url }}"></use>
           {% endif %}
         {% endif %}
       </svg>
