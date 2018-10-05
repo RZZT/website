@@ -625,3 +625,29 @@ footer a {
     background-position: center center;
   }
 }
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  padding: 0;
+  margin: 0;
+}
+
+.post-list h3 {
+  margin: 1em 0 0 0;
+}
+
+.post-category {
+  border: 2px solid $turquoise-colour;
+  padding: 0.5em;
+  font-size: $small-font-size;
+}
+
+.post-meta {
+  color: $grey-colour;
+  margin: 0;
+}
