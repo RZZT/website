@@ -14,7 +14,7 @@ order: 4
       {% endfor %}
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {% if post.author %}
-        <p class="post-meta">{{ post.author }}</p>
+        <p class="post-meta">{{ post.author }} | {{ post.date | date: "%-d %B %Y"}}</p>
       {% endif %}
       <p>{{ post.excerpt }}</p>
     </li>

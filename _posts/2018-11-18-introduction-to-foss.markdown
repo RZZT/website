@@ -5,6 +5,8 @@ date:   2018-11-18
 author: Akhilesh
 categories:
 - blog
+- FOSS
+excerpt: "The term free software refers to more than just the monetary cost of software --- it is a reference to the political philosophy of liberty. The Free Software Foundation (FSF) has defined the term as software that complies with the following four freedoms ..."
 ---
 
 ## What Is Free Software?
