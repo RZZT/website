@@ -3,10 +3,10 @@ layout: page
 ---
 
 <p class="post-meta">
-  {% if post.author %}
-    {{ post.author }} |
+  {% if page.author %}
+    {{ page.author }} |
   {% endif %}
-  {{ post.date | date: "%-d %B %Y"}}
+  {{ page.date | date: "%-d %B %Y"}}
 </p>
 
 {{ content }}
