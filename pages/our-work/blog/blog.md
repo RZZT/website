@@ -13,9 +13,12 @@ order: 4
         <span class="post-category">{{ category | upcase }}</span>
       {% endfor %}
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {% if post.author %}
-        <p class="post-meta">{{ post.author }} | {{ post.date | date: "%-d %B %Y"}}</p>
-      {% endif %}
+      <p class="post-meta">
+        {% if post.author %}
+          {{ post.author }} |
+        {% endif %}
+        {{ post.date | date: "%-d %B %Y"}}
+      </p>
       <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
