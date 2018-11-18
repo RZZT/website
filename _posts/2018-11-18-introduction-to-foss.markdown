@@ -26,7 +26,7 @@ Proprietary software (or “non-free software”) is software that the publisher
 
 The free software movement was started by Richard Stallman, a graduate of Harvard University and former employee of the Massachusetts Institute of Technology (MIT).
 
-During his time at MIT, Stallman worked with like-minded programmers. At MIT software was not licensed in a restrictive manner and open collaboration was encouraged, but by the early 1980s almost all commercial software was licensed as propriety software.
+During his time at MIT, Stallman worked with like-minded programmers. At MIT, software was not licensed in a restrictive manner and open collaboration was encouraged, but by the early 1980s almost all commercial software was licensed as propriety software.
 
 Unhappy with the direction of the software industry toward limiting the freedom of programmers and users, Stallman founded the free software movement. The main objective of the free software movement is to promote the above-mentioned freedoms.
 
@@ -37,7 +37,7 @@ The list below mentions just a few of the many benefits of using free software o
 1. Free software has inherently better scope for being secure as it can be audited and patched by multiple security experts and community members.
 2. Free software is open-source and therefore is more privacy-friendly than closed-source proprietary software. You may personally inspect the code for what it does, or rely upon the community and independent auditors to do so;
 3. Free software does not restrict or limit the purposes for which a user can use the software;
-4. Free software allows programmers to add their improvements to the software without having to reinvent the wheel all over again and waste man-hours unnecessarily.
+4. Free software allows programmers to add their improvements to the software without having to reinvent the wheel all over again and unnecessarily waste man-hours.
 
 ## The Position of RZZT in the Free Software Movement
 
