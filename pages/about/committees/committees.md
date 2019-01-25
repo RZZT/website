@@ -3,7 +3,7 @@ layout: page
 title: Committees
 permalink: /committees/
 parent: "About"
-order: 6
+order: 7
 ---
 
 The Directors may establish committees from time-to-time to manage various aspects of the Company, perform specific tasks and functions, assist the Directors on certain matters, and conduct research on important issues. There are currently two committees: the Funding Committee, and the Public Relations and Marketing Committee.

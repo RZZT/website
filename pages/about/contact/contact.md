@@ -3,7 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 parent: "About"
-order: 1
+order: 2
 ---
 
 ## Email

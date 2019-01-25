@@ -3,7 +3,7 @@ layout: page
 title: Our principles
 permalink: /our-principles/
 parent: "About"
-order: 3
+order: 4
 ---
 
 In addition to the goals set out in RZZT's Articles of Association, the Company has adopted the following principles:
