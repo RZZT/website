@@ -6,7 +6,7 @@ author: Company Secretary
 categories:
 - announcement
 - general meeting
-excerpt: ""
+excerpt: "Members are advised that the Company will hold a general meeting online via IRC on Saturday 9 February 2019 at 07:00 UTC."
 ---
 
 Dear members of RZZT CIC,
@@ -19,11 +19,9 @@ As with all Company meetings, it will be held in the channel #RZZT-meetings on c
 
 At the general meeting members will vote on eight (8) special resolutions to amend the Company's Articles of Association, and elect one (1) Director following the resignation of Víctor Rincones Rodriguez, which will take effect on Monday 11 February 2019.
 
-by filling in the [membership application form]({{ site.baseurl }}/assets/documents/RZZT-Membership-Application.pdf) (PDF).
-
 The list of special resolutions being proposed is [available here]({{ site.baseurl }}/assets/documents/RZZT-Special-Resolutions-2019-02-09.pdf) (PDF) and on [GitHub](https://github.com/RZZT/Company-Documents/blob/master/Drafts/draft-resolutions.md). Nominations and voting for the vacant directorship shall be made at the meeting.
 
-Members may appoint a proxy to vote or nominate on their behalf if they are unable to attend the meeting, and may instruct the proxy regarding how they wish to vote. If you wish to do this, please complete the [proxy appointment form]({{ site.baseurl }}/assets/documents/RZZT-Proxy-Appointment-Form) (PDF) and email it to [secretary@rzzt.io](mailto:secretary@rzzt.io). The Company Secretary (myself) is willing to act as proxy for any member who cannot attend. If you have difficulty completing the form, you may instead email the details to secretary@rzzt.io.
+Members may appoint a proxy to vote or nominate on their behalf if they are unable to attend the meeting, and may instruct the proxy regarding how they wish to vote. If you wish to do this, please complete the [proxy appointment form]({{ site.baseurl }}/assets/documents/RZZT-Proxy-Appointment-Form.pdf) (PDF) and email it to [secretary@rzzt.io](mailto:secretary@rzzt.io). The Company Secretary (myself) is willing to act as proxy for any member who cannot attend. If you have difficulty completing the form, you may instead email the details to secretary@rzzt.io.
 
 After each special resolution is formally proposed, members will be asked to respond with 'aye', 'nay' or 'abstain'. The Chair of the meeting shall duly close the vote and declare the result.
 
