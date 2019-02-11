@@ -29,7 +29,7 @@ layout: document
 {% endif %}
 
 {% if page.secretary or page.members %}
-  <p>Also present
+  {% if page.directors %}<p>Also present {% else %} Present {% endif %}
     {% if page.secretary.size > 0 and page.members.size > 0 %}
       {% assign extra_attendees = true %}
     {% elsif page.members.size > 1 %}
