@@ -41,6 +41,12 @@ The Chair explained the voting procedure for the will be either by ordinary reso
 
 In the opinion of the Chair this did not go beyond what is necessary to correct a grammatical or other non-substantive error in the resolution.
 
+The Chair acknowledged, at the request of Joerg Reisenweber, that during a conversation immediately prior to the meeting Mr Reisenweber and Mozart Olbrycht-Palmer had discussed an additional Special Resolution that could not be considered at this meeting, but which Mr Reisenweber and Mr Olbrycht-Palmer intended to raise at the next meeting. That resolution was:
+
+> To amend Article 14.4(a) to read: 'the place or nominated medium, day and time of the meeting'; and
+>
+> to insert a new definition that reads: '"nominated medium" means a telecommunications system unanimously agreed, formally or informally, by the Directors for the purposes of holding Directors' meetings'.
+
 **The Members resolved by unanimous ordinary resolution** to vote on the proposed Special Resolutions 2019-1 through 2019-8 with a single vote.
 
 **The Members resolved by unanimous special resolution** to adopt the proposed Special Resolutions 2019-1 through 2019-8.
