@@ -96,7 +96,7 @@ layout: document
 
   <p>The next meeting will be held on {{ page.next-meeting | date: "%A %-d %B %Y"}} at {{ page.next-meeting | date: "%R"}} UTC±0.</p>
 
-{% elseif page.body != "Members" %}
+{% elsif page.body != "Members" %}
   <p>The {{ page.body }} declined to set a date for the next meeting.</p>
 {% endif %}
 
