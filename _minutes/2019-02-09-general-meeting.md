@@ -46,3 +46,9 @@ In the opinion of the Chair this did not go beyond what is necessary to correct 
 **The Members resolved by unanimous special resolution** to adopt the proposed Special Resolutions 2019-1 through 2019-8.
 
 ## Director election
+
+The Chair acknowledged the resignation of Victor Rincones Rodriguez had been received by the Company and would be effective from Monday 11 February 2019.
+
+The Members acknowledged and thanked Mr Rincones Rodriguez for his work as a Director since the Company's founding.
+
+The Chair called for nominations to fill the imminent vacancy. No nominations were forthcoming, and the Chair acknowledged that the Directors would appoint a new Director in accordance with the Articles of Association.
