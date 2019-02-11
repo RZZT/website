@@ -37,7 +37,9 @@ The Chair explained the voting procedure for the will be either by ordinary reso
 
 ## Special resolutions
 
-**The Members resolved by unanimous ordinary resolution** to amend the proposed Special Resolution 2019-2 to read: 'The members of RZZT CIC resolve to amend Article 14.1 of the Articles of Association by replacing "Two Directors" and "two Directors" with "Any director" and "any director" respectively.'
+**Mozart Olbrycht-Palmer proposed eight Special Resolutions** as previously [circulated among the members]({{ site.baseurl }}/assets/documents/RZZT-Draft-Special-Resolutions-2019-02-09.pdf) (PDF).
+
+**As proposed by Mozart Olbrycht-Palmer and Akhilesh Jamdar, the Members resolved by unanimous ordinary resolution** to amend the proposed Special Resolution 2019-2 to read: 'The members of RZZT CIC resolve to amend Article 14.1 of the Articles of Association by replacing "Two Directors" and "two Directors" with "Any director" and "any director" respectively.'
 
 In the opinion of the Chair this did not go beyond what is necessary to correct a grammatical or other non-substantive error in the resolution.
 
@@ -46,9 +48,9 @@ The Chair acknowledged, at the request of Joerg Reisenweber, that during a conve
 - To amend Article 14.4(a) to read: 'the place or nominated medium, day and time of the meeting'; and
 - to insert a new definition that reads: '"nominated medium" means a telecommunications system unanimously agreed, formally or informally, by the Directors for the purposes of holding Directors' meetings'.
 
-**The Members resolved by unanimous ordinary resolution** to vote on the proposed Special Resolutions 2019-1 through 2019-8 with a single vote.
+**As proposed by Mozart Olbrycht-Palmer, the Members resolved by unanimous ordinary resolution** to vote on the proposed Special Resolutions 2019-1 through 2019-8, including Special Resolution 2019-2 as amended, with a single vote.
 
-**The Members resolved by unanimous special resolution** to adopt the proposed Special Resolutions 2019-1 through 2019-8.
+**The Members resolved by unanimous special resolution** to adopt [Special Resolutions 2019-1 through 2019-8]({{ site.baseurl }}/assets/documents/RZZT-Special-Resolutions-2019-02-09.pdf) (PDF).
 
 ## Director election
 

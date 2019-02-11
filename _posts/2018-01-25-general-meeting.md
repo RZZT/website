@@ -19,7 +19,7 @@ As with all Company meetings, it will be held in the channel #RZZT-meetings on c
 
 At the general meeting members will vote on eight (8) special resolutions to amend the Company's Articles of Association, and elect one (1) Director following the resignation of Víctor Rincones Rodriguez, which will take effect on Monday 11 February 2019.
 
-The list of special resolutions being proposed is [available here]({{ site.baseurl }}/assets/documents/RZZT-Special-Resolutions-2019-02-09.pdf) (PDF) and on [GitHub](https://github.com/RZZT/Company-Documents/blob/master/Drafts/draft-resolutions.md). Nominations and voting for the vacant directorship shall be made at the meeting.
+The list of special resolutions being proposed is [available here]({{ site.baseurl }}/assets/documents/RZZT-Draft-Special-Resolutions-2019-02-09.pdf) (PDF) and on [GitHub](https://github.com/RZZT/Company-Documents/blob/master/Drafts/draft-resolutions.md). Nominations and voting for the vacant directorship shall be made at the meeting.
 
 Members may appoint a proxy to vote or nominate on their behalf if they are unable to attend the meeting, and may instruct the proxy regarding how they wish to vote. If you wish to do this, please complete the [proxy appointment form]({{ site.baseurl }}/assets/documents/RZZT-Proxy-Appointment-Form.pdf) (PDF) and email it to [secretary@rzzt.io](mailto:secretary@rzzt.io). The Company Secretary (myself) is willing to act as proxy for any member who cannot attend. If you have difficulty completing the form, you may instead email the details to secretary@rzzt.io.
 
