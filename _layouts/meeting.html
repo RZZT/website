@@ -42,7 +42,7 @@ layout: document
           <li>{{ item }} (the Company Secretary)</li>
         {% endfor %}
         {% for item in page.members %}
-          <li>{{ item }} (a member)</li>
+          <li>{{ item }}{% if page.body != "Members" }(a member){% endif %}</li>
         {% endfor %}
       </ul>
     {% else %}
