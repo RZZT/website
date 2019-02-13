@@ -11,7 +11,7 @@ excerpt: "Members are advised that the Company will hold a general meeting onlin
 
 Dear members of RZZT CIC,
 
-Pleased be advised that the Company will hold a general meeting online via IRC on Saturday 9 February 2019 at 07:00 UTC (see below for time zone conversions).
+Please be advised that the Company will hold a general meeting online via IRC on Saturday 9 February 2019 at 07:00 UTC (see below for time zone conversions).
 
 The meeting is open to all members of the Company.
 
