@@ -7,7 +7,7 @@ order: 0
 ---
 
 <ul class="post-list">
-  {% for post in site.categories["press"] %}
+  {% for post in site.categories["media"] %}
     <li>
       {% for category in post.categories %}
         <span class="post-category">{{ category | upcase }}</span>
