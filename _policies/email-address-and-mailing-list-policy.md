@@ -37,7 +37,7 @@ In this process:
 3. The officers@ mailing list shall consist only of all Officers of the Company, using the Company email addresses assigned to them.
 4. The directors@ mailing list shall consist only of all Directors of the Company, using the Company email addresses assigned to them.
 5. The secretary@ mailing list shall consist only of all Company Secretaries of the Company, using the Company email addresses assigned to them.
-6. The staff@mailing list shall consist only of all Officers and staff of the Company.
+6. The staff@ mailing list shall consist only of all Officers and staff of the Company.
 7. All permanent mailing lists except the staff@ mailing list must be able to receive messages from Members and Officers of the Company.
 8. All permanent mailing lists apart from the members@ and staff@ mailing lists must be able to receive messages from persons other than Members and Officers.
 
