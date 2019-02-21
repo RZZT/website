@@ -1,12 +1,7 @@
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://rzzt.io/Open-Sans.woff2) format('woff2')
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
   counter-reset: article;
   background-color: #eee;
   margin: 0;
