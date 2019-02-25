@@ -5,17 +5,17 @@ layout: document
 <h2>Agenda</h2>
 
 <ul>
-  <li>Introductory matters</li>
+  <li><a href="#introductory-matters">Introductory matters</a></li>
     {% for item in page.agenda %}
-      <li>{{ item }}</li>
+      <li><a href="#{{ item | downcase | replace: " ", "-" }}">{{ item }}</a></li>
     {% endfor %}
   {% if page.next-meeting %}
-    <li>Next meeting</li>
+    <li><a href="#next-meeting">Next meeting</a></li>
   {% endif %}
-  <li>Close of meeting</li>
+  <li><a href="#close-of-meeting">Close of meeting</a></li>
 </ul>
 
-<h2>Introductory matters</h2>
+<h2 id="introductory-matters">Introductory matters</h2>
 
 <p>The {{ page.body }} of RZZT CIC met {{ page.location }} on {{ page.date | date: "%A %-d %B %Y"}} at {{ page.date | date: "%R"}} UTC±0.</p>
 
@@ -92,7 +92,7 @@ layout: document
 {{ content }}
 
 {% if page.next-meeting %}
-  <h2>Next meeting</h2>
+  <h2 id="next-meeting">Next meeting</h2>
 
   <p>The next meeting will be held on {{ page.next-meeting | date: "%A %-d %B %Y"}} at {{ page.next-meeting | date: "%R"}} UTC±0.</p>
 
@@ -100,6 +100,6 @@ layout: document
   <p>The {{ page.body }} declined to set a date for the next meeting.</p>
 {% endif %}
 
-<h2>Close of meeting</h2>
+<h2 id="close-of-meeting">Close of meeting</h2>
 
 <p>The meeting was closed at {{ page.close-meeting | date: "%R"}} UTC±0.</p>
