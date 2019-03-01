@@ -51,6 +51,8 @@ Matt confirmed that he had vote in favour of the decision, but the Directors not
 
 **The Directors decided** that the outcome of the vote was sufficiently clear to confirm the decision.
 
+The Directors thanked Joerg for his kind donation.
+
 Mozart will work with Joerg to transition the Company from Zoho to Hetzner.
 
 **The Directors decided** that, in the event that Hetzner proves unreliable, Matt will open Protonmail accounts in accordance with the Email Address and Mailing List Policy
