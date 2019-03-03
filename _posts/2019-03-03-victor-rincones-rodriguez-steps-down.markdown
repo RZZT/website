@@ -2,7 +2,7 @@
 layout: post
 title:  "Victor Rincones Rodriguez steps down as director"
 date:   2019-03-03
-author: Joseph
+author: Joseph Olbrycht-Palmer
 categories:
 - media
 - board
