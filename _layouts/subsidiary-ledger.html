@@ -14,8 +14,8 @@ layout: accounts
 
   {% for entry_hash in site.data.accounts_journal %}
     <tr>
-          <td>{{ entry.date }}</td>
-          <td>{{ entry.narration }}</td>
+          <td>{{ entry_hash[1].date }}</td>
+          <td>{{ entry_hash[1].narration }}</td>
           <td></td>
           <td></td>
           <td></td>
