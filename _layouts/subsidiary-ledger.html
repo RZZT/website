@@ -1,0 +1,49 @@
+---
+layout: accounts
+---
+
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Narration</th>
+      <th>Debit</th>
+      <th>Credit</th>
+      <th>Balance</th>
+    </tr>
+    {% assign balance = 0 %}
+    {% for entry_hash in site.data.accounts_journal %}
+      {% assign entry = entry_hash[1] %}
+        {% for debit in entry.debit %}
+          {% if debit["account"] == page.title %}
+            {% if page.type == "Assets" %}
+              {% assign balance = balance | plus: debit.amount %}
+            {% else %}
+              {% assign balance = balance | minus: debit.amount %}
+            {% endif %}
+            <tr>
+              <td>{{ entry.date }}</td>
+              <td>{{ entry.narration }}</td>
+              <td>{{ debit.amount }}</td>
+              <td></td>
+              <td>{{ balance }}</td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+        {% for credit in entry.credit %}
+          {% if credit["account"] == page.title %}
+            {% if page.type == "Assets" %}
+              {% assign balance = balance | minus: credit.amount %}
+            {% else %}
+              {% assign balance = balance | plus: credit.amount %}
+            {% endif %}
+            <tr>
+              <td>{{ entry.date }}</td>
+              <td>{{ entry.narration }}</td>
+              <td></td>
+              <td>{{ credit.amount }}</td>
+              <td>{{ balance }}</td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+    {% endfor %}
+  </table>

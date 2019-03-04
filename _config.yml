@@ -32,6 +32,10 @@ collections:
     output: true
   forms:
     output: true
+  balance-sheets:
+    output: true
+  profit-and-loss-statements:
+    output: true
 
 # Build settings
 markdown: kramdown

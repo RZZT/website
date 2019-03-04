@@ -1,0 +1,64 @@
+---
+layout: accounts
+---
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Narration</th>
+    <th>Accounts</th>
+    <th>Debit</th>
+    <th>Credit</th>
+    <th>Status</th>
+  </tr>
+  {% for entry_hash in site.data.accounts_journal reversed %}
+    {% assign entry = entry_hash[1] %}
+    <tr>
+      {% if entry.note %}
+        <td rowspan="3" nowrap>{{ entry.date | date: "%-d %b %Y" }}</td>
+        <td rowspan="3">{{ entry.narration }}</td>
+      {% else %}
+        <td rowspan="2" nowrap>{{ entry.date }}</td>
+        <td rowspan="2">{{ entry.narration }}</td>
+      {% endif %}
+      <td>
+        {% for debit in entry.debit %}
+          {{ debit.account }}<br/>
+        {% endfor %}
+      </td>
+      <td style="text-align:right;">
+        {% assign total_debit = 0 %}
+        {% for debit in entry.debit %}
+          {{ debit.amount }}<br/>
+          {% assign total_debit = total_debit | plus: debit.amount %}
+        {% endfor %}
+      </td>
+      <td></td>
+      {% assign total_credit = 0 %}
+      {% for credit in entry.credit %}
+        {% assign total_credit = total_credit | plus: credit.amount %}
+      {% endfor %}
+      {% if total_debit == total_credit %}
+        <td rowspan="2" style="background-color:lightgreen;">Balanced</td>
+      {% else %}
+        <td rowspan="2" style="background-color:pink;">Unbalanced</td>
+      {% endif %}
+    </tr>
+    <tr>
+      <td style="padding-left: 4em;">
+        {% for credit in entry.credit %}
+          {{ credit.account }}<br/>
+        {% endfor %}
+      </td>
+      <td></td>
+      <td style="text-align: right;">
+        {% for credit in entry.credit %}
+          {{ credit.amount }}<br/>
+        {% endfor %}
+      </td>
+    </tr>
+    {% if entry.note %}
+      <tr><td colspan="4">{{ entry.note }}</td></tr>
+    {% endif %}
+  {% endfor %}
+</table>

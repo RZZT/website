@@ -1,0 +1,30 @@
+business_name: RZZT CIC
+business_information:
+  - UK company number 10951485
+functional_currency: USD
+accounts:
+  - type: Assets
+    list:
+      - Miscellaneous receivables
+      - Patreon
+      - PayPal
+      - Prepaid invoices
+      - Unliquidated assets
+  - type: Liabilities
+    list:
+      - Accounts payable
+  - type: Income
+    list:
+      - Patreon contributions
+      - PayPal contributions
+      - Unliquidated contributions
+  - type: Expenses
+    list:
+      - Administrative costs
+      - Contractor invoices
+      - Patreon fees
+      - PayPal fees
+currencies:
+  - name: United States Dollars
+    code: USD
+    symbol: $

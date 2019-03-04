@@ -1,0 +1,17 @@
+---
+layout: accounts
+---
+
+<h3 style="text-align:center;">Balance sheet</h2>
+
+<p style="text-align:center;">As at {{ "now" | date: "%A %-d %B %Y" }}</p>
+
+{% include balance-sheet.html %}
+
+<h3 style="text-align:center;">Profit & Loss Statement</h2>
+
+{% assign first_entry = site.data.accounts_journal | first %}
+
+<p style="text-align:center;">For the period {{ first_entry[1].date | date: "%A %-d %B %Y" }} to {{ "now" | date: "%A %-d %B %Y" }}</p>
+
+{% include profit-and-loss-statement.html %}

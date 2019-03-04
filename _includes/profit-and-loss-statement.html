@@ -1,0 +1,69 @@
+{% if page.from %}
+  {% assign from_date = page.from | date: "%Y%m%d" %}
+{% else %}
+  {% assign first_entry = site.data.accounts_journal | first %}
+  {% assign from_date = first_entry[1].date | date: "%Y%m%d" %}
+{% endif %}
+
+{% if page.to %}
+  {% assign to_date = page.to | date: "%Y%m%d" %}
+{% else %}
+  {% assign to_date = "now" | date: "%Y%m%d" %}
+{% endif %}
+
+<table>
+{% for group in site.data.accounts["accounts"] %}
+  {% assign group_total = 0 %}
+  {% if group.type == "Income" or group.type == "Expenses" %}
+  <tr><td colspan="3" style="background-color:lightyellow;"><strong>{{ group.type | upcase }}</strong></td></tr>
+    {% for account in group["list"] %}
+      {% assign account_value = 0 %}
+      {% for entry_hash in site.data.accounts_journal %}
+        {% assign entry = entry_hash[1] %}
+        {% assign entry_date = entry.date | date: "%Y%m%d" %}
+        {% if entry_date <= to_date and entry_date >= from_date %}
+          {% for debit in entry["debit"] %}
+            {% if debit["account"] == account %}
+              {% assign debit_value = debit["amount"] %}
+              {% if group.type == "Income" %}
+                {% assign account_value = account_value | minus: debit_value %}
+              {% else %}
+                {% assign account_value = account_value | plus: debit_value %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% for credit in entry["credit"] %}
+            {% if credit["account"] == account %}
+              {% assign credit_value = credit["amount"] %}
+              {% if group.type == "Income" %}
+                {% assign account_value = account_value | plus: credit_value %}
+              {% else %}
+                {% assign account_value = account_value | minus: credit_value %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {% assign price_split = account_value | round: 2 | split: "." %}
+      {% assign integral = price_split[0] %}
+      {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+      <tr><td><a href="{{ site.baseurl }}/accounts/ledgers/{{ group.type | downcase }}/{{ account | downcase | replace: " ", "-" }}.html">{{ account }}</a></td><td>{{ currency_symbol }}</td><td style="text-align:right">{{ integral }}.{{ fractional }}</tr>
+      {% assign group_total = group_total | plus: account_value %}
+      {% if group.type == "Income" %}
+        {% assign total_income = group_total %}
+      {% else %}
+        {% assign total_expenses = group_total %}
+      {% endif %}
+    {% endfor %}
+    {% assign price_split = group_total | round: 2 | split: "." %}
+    {% assign integral = price_split[0] %}
+    {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+    <tr><td><strong>TOTAL</strong></td><td>{{ currency_symbol }}</td><td style="text-align:right">{{ integral }}.{{ fractional }}</tr>
+  {% endif %}
+{% endfor %}
+{% assign net_assets = total_income | minus: total_expenses %}
+{% assign price_split = net_assets | round: 2 | split: "." %}
+{% assign integral = price_split[0] %}
+{% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+<tr style="background-color:lightyellow;"><td><strong>NET INCOME</strong></td><td>{{ currency_symbol }}</td><td style="text-align:right">{{ integral }}.{{ fractional }}</tr>
+</table>
