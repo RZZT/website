@@ -26,7 +26,7 @@ layout: accounts
           {{ debit.account }}<br/>
         {% endfor %}
       </td>
-      <td style="text-align:right;">
+      <td class="right-aligned-cell">
         {% assign total_debit = 0 %}
         {% for debit in entry.debit %}
           {{ debit.amount }}<br/>
@@ -39,19 +39,19 @@ layout: accounts
         {% assign total_credit = total_credit | plus: credit.amount %}
       {% endfor %}
       {% if total_debit == total_credit %}
-        <td rowspan="2" style="background-color:lightgreen;">Balanced</td>
+        <td rowspan="2" class="accounts-table-balanced">Balanced</td>
       {% else %}
-        <td rowspan="2" style="background-color:pink;">Unbalanced</td>
+        <td rowspan="2" class"accounts-table-unbalanced">Unbalanced</td>
       {% endif %}
     </tr>
     <tr>
-      <td style="padding-left: 4em;">
+      <td class="accounts-table-credit">
         {% for credit in entry.credit %}
           {{ credit.account }}<br/>
         {% endfor %}
       </td>
       <td></td>
-      <td style="text-align: right;">
+      <td class="right-aligned-cell">
         {% for credit in entry.credit %}
           {{ credit.amount }}<br/>
         {% endfor %}

@@ -21,7 +21,7 @@
 {% for group in site.data.accounts["accounts"] %}
   {% assign group_total = 0 %}
   {% if group.type == "Income" or group.type == "Expenses" %}
-  <tr><td colspan="3" style="background-color:lightyellow;"><strong>{{ group.type | upcase }}</strong></td></tr>
+  <tr><td colspan="3" class="accounts-table-total"><strong>{{ group.type | upcase }}</strong></td></tr>
     {% for account in group["list"] %}
       {% assign account_value = 0 %}
       {% for entry_hash in site.data.accounts_journal %}
@@ -53,7 +53,7 @@
       {% assign price_split = account_value | round: 2 | split: "." %}
       {% assign integral = price_split[0] %}
       {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
-      <tr><td><a href="{{ site.baseurl }}/accounts/ledgers/{{ group.type | downcase }}/{{ account | downcase | replace: " ", "-" }}.html">{{ account }}</a></td><td>{{ currency_symbol }}</td><td style="text-align:right">{{ integral }}.{{ fractional }}</tr>
+      <tr><td><a href="{{ site.baseurl }}/accounts/ledgers/{{ group.type | downcase }}/{{ account | downcase | replace: " ", "-" }}.html">{{ account }}</a></td><td>{{ currency_symbol }}</td><td class="right-aligned-cell">{{ integral }}.{{ fractional }}</tr>
       {% assign group_total = group_total | plus: account_value %}
       {% if group.type == "Income" %}
         {% assign total_income = group_total %}
@@ -64,12 +64,12 @@
     {% assign price_split = group_total | round: 2 | split: "." %}
     {% assign integral = price_split[0] %}
     {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
-    <tr><td><strong>TOTAL</strong></td><td>{{ currency_symbol }}</td><td style="text-align:right">{{ integral }}.{{ fractional }}</tr>
+    <tr><td><strong>TOTAL</strong></td><td>{{ currency_symbol }}</td><td class="right-aligned-cell">{{ integral }}.{{ fractional }}</tr>
   {% endif %}
 {% endfor %}
 {% assign net_assets = total_income | minus: total_expenses %}
 {% assign price_split = net_assets | round: 2 | split: "." %}
 {% assign integral = price_split[0] %}
 {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
-<tr style="background-color:lightyellow;"><td><strong>NET INCOME</strong></td><td>{{ currency_symbol }}</td><td style="text-align:right">{{ integral }}.{{ fractional }}</tr>
+<tr class="accounts-table-total"><td><strong>NET INCOME</strong></td><td>{{ currency_symbol }}</td><td class="right-aligned-cell">{{ integral }}.{{ fractional }}</tr>
 </table>

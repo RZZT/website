@@ -2,6 +2,8 @@
 layout: accounts
 ---
 
-<p class="text-align: center;"> As at {{ page.date | date: "%-d %B %Y" }}</p>
+<div class="accounts-header">
+  <p> As at {{ page.date | date: "%-d %B %Y" }}</p>
+</div>
 
 {% include balance-sheet.html %}

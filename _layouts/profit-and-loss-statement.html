@@ -2,6 +2,8 @@
 layout: accounts
 ---
 
-<p style="text-align: center;">For the period {{ page.from | date: "%-d %B %Y" }} to {{ page.to | date: "%-d %B %Y" }}</p>
+<div class="accounts-header">
+  <p>For the period {{ page.from | date: "%-d %B %Y" }} to {{ page.to | date: "%-d %B %Y" }}</p>
+</div>
 
 {% include profit-and-loss-statement.html %}

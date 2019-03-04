@@ -655,3 +655,33 @@ footer a {
   color: $grey-colour;
   margin: 0;
 }
+
+/* Accounts table */
+
+.accounts-header {
+  text-align: center;
+}
+
+.accounts-table {
+  width: 100%;
+}
+
+.accounts-table-total {
+  background-color: lightyellow;
+}
+
+.accounts-table-balanced {
+  background-color: lightgreen;
+}
+
+.accounts-table-unbalanced {
+  background-color: pink;
+}
+
+.right-aligned-cell {
+  text-align: right;
+}
+
+.accounts-table-credit {
+  padding-left: 4em;
+}
