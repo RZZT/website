@@ -12,7 +12,7 @@
 {% endif %}
 
 {% for currency in site.data.accounts["currencies"] %}
-  {% if currency["code"] == site.data.functional_currency %}
+  {% if currency["code"] == site.data.accounts.functional_currency %}
     {% assign currency_symbol = currency["symbol"] %}
   {% endif %}
 {% endfor %}
