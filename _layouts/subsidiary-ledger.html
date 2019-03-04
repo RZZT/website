@@ -11,18 +11,8 @@ layout: accounts
     <th>Balance</th>
   </tr>
   {% assign balance = 0 %}
-
-  {% for entry_hash in site.data.accounts_journal %}
-    <tr>
-          <td>{{ entry_hash[1].date }}</td>
-          <td>{{ entry_hash[1].narration }}</td>
-          <td></td>
-          <td></td>
-          <td></td>
-    </tr>
-  {% endfor %}
-
-  {% for entry_hash in site.data.accounts_journal %}
+  {% assign sorted_entries = site.data.accounts_journal | sort: 'date' %}
+  {% for entry_hash in sorted_entries %}
     {% assign entry = entry_hash[1] %}
     {% for debit in entry.debit %}
       {% if debit["account"] == page.title %}
