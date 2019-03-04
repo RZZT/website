@@ -4,6 +4,12 @@
   {% assign sheet_date = "now" | date: "%Y%m%d" %}
 {% endif %}
 
+{% for currency in site.data.accounts["currencies"] %}
+  {% if currency["code"] == currency_code %}
+    {% assign currency_symbol = currency["symbol"] %}
+  {% endif %}
+{% endfor %}
+
 <table>
 
 {% for group in site.data.accounts["accounts"] %}

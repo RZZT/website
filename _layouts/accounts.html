@@ -12,7 +12,6 @@ layout: default
     {% assign currency_code = site.data.accounts["functional_currency"] %}
     {% for currency in site.data.accounts["currencies"] %}
       {% if currency["code"] == currency_code %}
-        {% assign currency_symbol = currency["symbol"] %}
         <p style="text-align:center;">Functional currency: {{ currency["name"] }}
       {% endif %}
     {% endfor %}
