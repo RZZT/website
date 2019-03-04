@@ -11,7 +11,8 @@ layout: accounts
     <th>Balance</th>
   </tr>
   {% assign balance = 0 %}
-  {% for the_entry in site.data.accounts_journal %}
+  {% assign journal_sorted = site.data.accounts_journal | sort: "date" %}
+  {% for the_entry in journal_sorted %}
     {% assign entry = the_entry[1] %}
     {% for debit in entry.debit %}
       {% if debit["account"] == page.title %}
