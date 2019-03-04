@@ -17,7 +17,7 @@
   {% endif %}
 {% endfor %}
 
-<table>
+<table class="accounts-table">
 {% for group in site.data.accounts["accounts"] %}
   {% assign group_total = 0 %}
   {% if group.type == "Income" or group.type == "Expenses" %}
