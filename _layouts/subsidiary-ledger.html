@@ -11,7 +11,7 @@ layout: accounts
     <th>Balance</th>
   </tr>
   {% assign balance = 0 %}
-  {% for entry_hash in site.data.accounts_journal %}
+  {% for entry_hash in site.data.accounts_journal | sort: 'date' | reverse %}
     {% assign entry = entry_hash[1] %}
     {% for debit in entry.debit %}
       {% if debit["account"] == page.title %}
