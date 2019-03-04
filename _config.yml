@@ -32,6 +32,8 @@ collections:
     output: true
   forms:
     output: true
+  accounts-journal:
+    output: false
   balance-sheets:
     output: true
   profit-and-loss-statements:
