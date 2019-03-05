@@ -7,9 +7,11 @@ layout: accounts
   <p>As at {{ "now" | date: "%A %-d %B %Y" }}</p>
 </div>
 
+{% include balance-sheet.html %}
+
 <div class="accounts-header">
   <h3>Profit & Loss Statement</h3>
-  {% assign first_entry = site.data.accounts_journal | first %}
+  {% assign first_entry = site.data.accounts_journal | sort | first %}
   <p>For the period {{ first_entry[1].date | date: "%A %-d %B %Y" }} to {{ "now" | date: "%A %-d %B %Y" }}</p>
 </div>
 

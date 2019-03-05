@@ -1,7 +1,7 @@
 {% if page.from %}
   {% assign from_date = page.from | date: "%Y%m%d" %}
 {% else %}
-  {% assign first_entry = site.data.accounts_journal | first %}
+  {% assign first_entry = site.data.accounts_journal | sort | first %}
   {% assign from_date = first_entry[1].date | date: "%Y%m%d" %}
 {% endif %}
 
