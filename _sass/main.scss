@@ -671,7 +671,7 @@ footer a {
   padding: 0.5em;
 }
 
-.accounts-table tr:nth-child(even) {
+.accounts-table tbody:nth-child(even) {
   background-color: lightgrey;
 }
 
