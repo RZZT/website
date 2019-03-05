@@ -11,9 +11,9 @@ layout: accounts
     <th>Balance</th>
   </tr>
   {% assign balance = 0 %}
-  {% assign journal_sorted = (site.data.accounts_journal | sort: "date") %}
-  {% for the_entry in journal_sorted %}
-    {% assign entry = the_entry[1] %}
+  {% assign journal_sorted = site.data.accounts_journal | sort %}
+  {% for entry_hash in journal_sorted %}
+    {% assign entry = entry_hash[1] %}
     {% for debit in entry.debit %}
       {% if debit["account"] == page.title %}
         {% if page.type == "Assets" %}
