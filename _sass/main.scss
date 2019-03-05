@@ -664,6 +664,7 @@ footer a {
 
 .accounts-table {
   width: 100%;
+  border-collapse: collapse;
 }
 
 .accounts-table td {
@@ -672,19 +673,19 @@ footer a {
 }
 
 .accounts-table tbody:nth-child(even) {
-  background-color: lightgray;
+  background-color: #E8E8E8;
 }
 
 .accounts-table-total {
-  background-color: lightyellow;
+  background-color: #FFFFE0;
 }
 
 .accounts-table-balanced {
-  background-color: lightgreen;
+  background-color: #90EE90;
 }
 
 .accounts-table-unbalanced {
-  background-color: pink;
+  background-color: #F08080;
 }
 
 .right-aligned-cell {
