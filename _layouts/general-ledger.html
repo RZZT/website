@@ -11,7 +11,8 @@ layout: accounts
     <th>Credit</th>
     <th>Status</th>
   </tr>
-  {% for entry_hash in site.data.accounts_journal reversed %}
+  {% assign journal_sorted = site.data.accounts_journal | sort %}
+  {% for entry_hash in journal_sorted %}
     {% assign entry = entry_hash[1] %}
     <tr>
       {% if entry.note %}

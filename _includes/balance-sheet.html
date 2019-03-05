@@ -17,7 +17,8 @@
       <tr><td colspan="3" class="accounts-table-total"><strong>{{ group.type | upcase }}</strong></td></tr>
       {% for account in group["list"] %}
         {% assign account_value = 0 %}
-        {% for entry_hash in site.data.accounts_journal %}
+        {% assign journal_sorted = site.data.accounts_journal | sort %}
+        {% for entry_hash in journal_sorted %}
           {% assign entry = entry_hash[1] %}
           {% assign entry_date = entry.date | date: "%Y%m%d" %}
           {% if entry_date <= sheet_date %}
