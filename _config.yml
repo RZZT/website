@@ -34,7 +34,7 @@ collections:
     output: true
   balance-sheets:
     output: true
-  profit-and-loss-statements:
+  income-statements:
     output: true
 
 # Build settings
