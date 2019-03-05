@@ -14,6 +14,7 @@ layout: accounts
   {% assign journal_sorted = site.data.accounts_journal | sort %}
   {% for entry_hash in journal_sorted %}
     {% assign entry = entry_hash[1] %}
+    <tbody>
     <tr>
       {% if entry.note %}
         <td rowspan="3" nowrap>{{ entry.date | date: "%-d %b %Y" }}</td>
@@ -61,5 +62,6 @@ layout: accounts
     {% if entry.note %}
       <tr><td colspan="4">{{ entry.note }}</td></tr>
     {% endif %}
+    <tbody>
   {% endfor %}
 </table>

@@ -14,7 +14,6 @@ layout: accounts
   {% assign journal_sorted = site.data.accounts_journal | sort %}
   {% for entry_hash in journal_sorted %}
     {% assign entry = entry_hash[1] %}
-    <tbody>
     {% for debit in entry.debit %}
       {% if debit["account"] == page.title %}
         {% if page.type == "Assets" %}
@@ -22,13 +21,15 @@ layout: accounts
         {% else %}
           {% assign balance = balance | minus: debit.amount %}
         {% endif %}
-        <tr>
-          <td>{{ entry.date }}</td>
-          <td>{{ entry.narration }}</td>
-          <td>{{ debit.amount }}</td>
-          <td></td>
-          <td>{{ balance }}</td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>{{ entry.date }}</td>
+            <td>{{ entry.narration }}</td>
+            <td>{{ debit.amount }}</td>
+            <td></td>
+            <td>{{ balance }}</td>
+          </tr>
+        </tbody>
       {% endif %}
     {% endfor %}
     {% for credit in entry.credit %}
@@ -38,15 +39,16 @@ layout: accounts
         {% else %}
           {% assign balance = balance | plus: credit.amount %}
         {% endif %}
-        <tr>
-          <td>{{ entry.date }}</td>
-          <td>{{ entry.narration }}</td>
-          <td></td>
-          <td>{{ credit.amount }}</td>
-          <td>{{ balance }}</td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>{{ entry.date }}</td>
+            <td>{{ entry.narration }}</td>
+            <td></td>
+            <td>{{ credit.amount }}</td>
+            <td>{{ balance }}</td>
+          </tr>
+      </tbody>
       {% endif %}
     {% endfor %}
-    </tbody>
   {% endfor %}
 </table>
