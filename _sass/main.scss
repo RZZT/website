@@ -666,6 +666,15 @@ footer a {
   width: 100%;
 }
 
+.accounts-table td {
+  vertical-align: top;
+  padding: 0.5em;
+}
+
+.accounts-table tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
 .accounts-table-total {
   background-color: lightyellow;
 }
