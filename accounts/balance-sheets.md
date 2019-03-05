@@ -1,6 +1,6 @@
 ---
 layout: accounts
-title: Balance sheets
+title: Balance Sheets
 ---
 
 <ul>
