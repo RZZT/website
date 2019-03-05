@@ -7,8 +7,6 @@ layout: accounts
   <p>As at {{ "now" | date: "%A %-d %B %Y" }}</p>
 </div>
 
-{% include balance-sheet.html %}
-
 <div class="accounts-header">
   <h3>Profit & Loss Statement</h3>
   {% assign first_entry = site.data.accounts_journal | first %}
