@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: RZZT
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   RZZT CIC is a Community Interest Company incorporated in the United Kingdom and registered in England & Wales as a private company limited by guarantee. Its company number is 10951485, and its registered office is at International House, 776-778 Barking Road, Barking, London, E13 9PJ. More details are available at the Companies House website.
 baseurl: "" # the subpath of your site, e.g. /blog
