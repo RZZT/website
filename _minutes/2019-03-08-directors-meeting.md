@@ -102,4 +102,4 @@ Mozart informed the Directors that he had [documented all the features and proce
     - seek Akhilesh's opinion on whether the proposal for postage from within the UK is appropriate and circulate a vote if it is.
 - Mozart will:
     - create an email account for Joseph Olbrycht-Palmer; and
-    - circulate Neal Wright's CV among the members.
+    - circulate Neal Wright's CV among the Directors.
