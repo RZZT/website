@@ -29,12 +29,12 @@ close-meeting: 2019-03-08 02:57
 ## Previous meeting action items
 
 - Mozart confirmed that he had implemented the decisions of the previous meeting to:
-- transition the Company’s email provider from Zoho to Hetzner;
-- amend the [Email Address and Mailing List Policy](https://rzzt.io/policies/email-address-and-mailing-list-policy.html);
-- abolish the Public Relations & Marketing Committee and the Funding Committee;
-- adopt the [Public Relations Manager terms of reference](https://rzzt.io/terms-of-reference/public-relations-manager-terms-of-reference.html);
-- adopt the [Brand Ambassador terms of reference](https://rzzt.io/terms-of-reference/brand-ambassador-terms-of-reference.html); and
-- adopt the [Statement on Human Rights and Civil Liberties](https://rzzt.io/human-rights-and-civil-liberties/).
+  - transition the Company’s email provider from Zoho to Hetzner;
+  - amend the [Email Address and Mailing List Policy](https://rzzt.io/policies/email-address-and-mailing-list-policy.html);
+  - abolish the Public Relations & Marketing Committee and the Funding Committee;
+  - adopt the [Public Relations Manager terms of reference](https://rzzt.io/terms-of-reference/public-relations-manager-terms-of-reference.html);
+  - adopt the [Brand Ambassador terms of reference](https://rzzt.io/terms-of-reference/brand-ambassador-terms-of-reference.html); and
+  - adopt the [Statement on Human Rights and Civil Liberties](https://rzzt.io/human-rights-and-civil-liberties/).
 - The Directors confirmed that Akhilesh had circulated a vote on appointing Joseph Olbrycht-Palmer the position of Public Relations Manager. Although this had been assigned to Matt, Matt explained that personal time constraints prevented him from doing it.
 - Matt stated that he had contacted potential donees for small donations and expected to have a partial list completed on or before 9 March.
 - Matt stated that he is still working to prepare a list of requirements for funding applicants, which he did not complete because of time constraints.
