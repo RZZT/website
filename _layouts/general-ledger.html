@@ -20,7 +20,7 @@ layout: accounts
         <td rowspan="3" nowrap>{{ entry.date | date: "%-d %b %Y" }}</td>
         <td rowspan="3">{{ entry.narration }}</td>
       {% else %}
-        <td rowspan="2" nowrap>{{ entry.date }}</td>
+        <td rowspan="2" nowrap>{{ entry.date | date: "%-d %b %Y" }}</td>
         <td rowspan="2">{{ entry.narration }}</td>
       {% endif %}
       <td>

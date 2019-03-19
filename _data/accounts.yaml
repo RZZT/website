@@ -9,7 +9,6 @@ accounts:
       - Patreon
       - PayPal
       - Prepaid invoices
-      - Unliquidated assets
   - type: Liabilities
     list:
       - Accounts payable
@@ -17,7 +16,6 @@ accounts:
     list:
       - Patreon contributions
       - PayPal contributions
-      - Unliquidated contributions
   - type: Expenses
     list:
       - Administrative costs
