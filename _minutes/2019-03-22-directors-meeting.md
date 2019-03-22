@@ -17,6 +17,7 @@ agenda:
 - Discord to Slack
 - Reschedule Directors' meetings
 - Letter from the members
+- Action items
 next-meeting: 2019-03-29 02:00
 close-meeting: 2019-03-22 03:05
 ---
@@ -52,3 +53,8 @@ The Directors confirmed that they had received a letter from three of the Compan
 The Directors thanked those members for the letter and noted that they would respond to it shortly.
 
 Mozart noted implementing some of the requests would require a general meeting to amend the Articles of Association, and volunteered to assist with preparing a request for a general meeting and a special resolution.
+
+## Action items
+
+- Matt will update the Trello board with details on the Company's planned business model.
+- Mozart will work with Neal (a member who signed the letter) to prepare the the request for a general meeting and the special resolution necessary to give effect to the letter's request.
