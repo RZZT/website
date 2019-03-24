@@ -33,7 +33,7 @@
       selectable: true,
       eventLimit: true, // allow "more" link when too many events
       events: {
-        url: 'https://rzzt.eu/get-events.php',
+        url: 'https://rzzt.eu/php/get-events.php',
         failure: function() {
           document.getElementById('script-warning').style.display = 'inline'; // show
         }
@@ -60,7 +60,7 @@
 
     // load the list of available timezones, build the <select> options
     // it's HIGHLY recommended to use a different library for network requests, not this internal util func
-    FullCalendar.requestJson('GET', 'https://rzzt.eu/get-time-zones.php', {}, function(timeZones) {
+    FullCalendar.requestJson('GET', 'https://rzzt.eu/php/get-time-zones.php', {}, function(timeZones) {
 
       timeZones.forEach(function(timeZone) {
         var optionEl;
