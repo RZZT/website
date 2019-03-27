@@ -1,0 +1,11 @@
+date: 2019-03-27
+narration: PayPal donation
+debit:
+  -
+    account: Administrative costs
+    amount: 20.30
+credit:
+  -
+    account: PayPal
+    amount: 20.30
+note: Invoice dated 26 March 2019 for £14.77.
