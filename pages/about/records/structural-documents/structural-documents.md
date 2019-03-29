@@ -5,20 +5,11 @@ permalink: /structural-documents/
 parent: "Records"
 ---
 
-## Articles of Association
-
 <table class="documents-table">
   <tr class="document-entry">
     <td><a href="{{ site.baseurl }}/articles-of-association/">Articles of Association</a></td>
+    <td><a href="{{ site.baseurl }}/assets/documents/RZZT-Instrument-Establishing-Role-of-Managing-Director.pdf">Instrumen Establishing Role of Managing Director</a> (PDF)</td>
+    <td><a href="{{ site.baseurl }}/assets/documents/RZZT-Brand-Ambassador-Terms-of-Reference.pdf">Brand Ambassador Terms of Reference</a> (PDF)</td>
+    <td><a href="{{ site.baseurl }}/assets/documents/RZZT-Public-Relations-Manager-Terms-of-Reference.pdf">Public Relations Manager Terms of Reference</a> (PDF)</td>
   </tr>
-</table>
-
-## Committee terms of reference
-
-<table class="documents-table">
-  {% for tor in site.terms-of-reference %}
-    <tr class="document-entry">
-      <td><a href="{{ tor.url }}">{{ tor.title }}</a></td>
-    </tr>
-  {% endfor %}
 </table>
