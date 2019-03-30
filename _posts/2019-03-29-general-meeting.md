@@ -25,7 +25,7 @@ Members may appoint a proxy to vote or nominate on their behalf if they are unab
 
 After each special resolution is formally proposed, members will be asked to respond with 'aye', 'nay' or 'abstain'. The Chair of the meeting shall duly close the vote and declare the result.
 
-If you have any questions about the formal or procedural aspects of the meeting, please contact [secretary@rzzt.io](mailto:secretary@rzzt.io), or ask in #general on the Company's Discord server.
+If you have any questions about the formal or procedural aspects of the meeting, please contact [secretary@rzzt.io](mailto:secretary@rzzt.io), or ask in #general on the Company's Slack workspace.
 
 The meeting will be held at 06:00 UTC on 13 April 2019, which is at the following times:
 
