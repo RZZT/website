@@ -37,7 +37,7 @@ The meeting will be held at 06:00 UTC on 13 April 2019, which is at the followin
 | British Summer Time              | 07:00 | Saturday 13 April |
 | Central European Summer Time     | 08:00 | Saturday 13 April |
 | Indian Standard Time             | 11:30 | Saturday 13 April |
-| Australian Eastern Daylight Time | 16:00 | Saturday 13 April |
-| New Zealand Daylight Time        | 18:00 | Saturday 13 April |
+| Australian Eastern Standard Time | 16:00 | Saturday 13 April |
+| New Zealand Standard Time        | 18:00 | Saturday 13 April |
 
 Please note that the above times are provided for convenience, and anyone who is uncertain should confirm the date and time themselves.
