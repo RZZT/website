@@ -1,0 +1,10 @@
+date: 2018-09-30
+narration: Corporation tax
+debit:
+  -
+    account: Corporation tax
+    amount: 380.02
+credit:
+  -
+    account: Accounts payable
+    amount: 380.02

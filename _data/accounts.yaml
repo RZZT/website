@@ -20,6 +20,7 @@ accounts:
     list:
       - Administrative costs
       - Contractor invoices
+      - Corporation tax
       - Patreon fees
       - PayPal fees
 currencies:
