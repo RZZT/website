@@ -1,5 +1,5 @@
 date: 2019-03-27
-narration: PayPal donation
+narration: Postage costs
 debit:
   -
     account: Administrative costs
@@ -8,4 +8,4 @@ credit:
   -
     account: PayPal
     amount: 20.30
-note: Invoice dated 26 March 2019 for £14.77.
+note: Invoice dated 26 March 2019 for £14.77, paid via PayPal in USD.
