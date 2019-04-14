@@ -2,7 +2,7 @@
 layout: meeting
 body: Directors
 title: Minutes of Directors' meeting
-date: 2019-04-012  03:35 UTC
+date: 2019-04-12  03:35 UTC
 location: online via IRC
 directors:
 - Mozart Olbrycht-Palmer
