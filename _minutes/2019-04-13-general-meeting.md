@@ -16,7 +16,6 @@ agenda:
 - Special resolutions
 - Director appointments
 - Appointment of Managing Director
-- Any other business
 close-meeting: 2019-04-13 06:46
 ---
 
@@ -58,5 +57,7 @@ The Chair invited competing nominations. No nominations were made.
 **The Members resolved** to appoint Mozart Olbrycht-Palmer as Managing Director. Mr Olbrycht-Palmer wished the minutes to reflect he had abstained from the vote.
 
 ---
+
 Akhilesh left the meeting at 06:46 UTC. The meeting ceased to be quorate.
+
 ---
