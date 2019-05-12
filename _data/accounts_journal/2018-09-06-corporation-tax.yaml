@@ -3,8 +3,8 @@ narration: Corporation tax
 debit:
   -
     account: Corporation tax
-    amount: 380.02
+    amount: 364.80
 credit:
   -
     account: Accounts payable
-    amount: 380.02
+    amount: 364.80
